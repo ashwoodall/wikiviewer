@@ -1,7 +1,5 @@
-@import url(https://fonts.googleapis.com/css?family=Rubik);
-@import url(https://fonts.googleapis.com/css?family=Lato);
 body {
-  background: #ADEEE3;
+  background: #ADEEE3 !important;
   margin: 0;
 }
 
@@ -11,34 +9,41 @@ body {
 }
 
 .article {
-  font-family: 'Rubik';
+  font-family: 'Quicksand';
   background: #63B995;
   padding: 20px 50px;
   margin-bottom: 20px;
 }
 
 a {
-  font-family: 'Lato';
-  color: #423E28;
+  font-family: 'Raleway';
+  color: #423E28 !important;
   text-decoration: none;
 }
 
 .article:hover {
-  background-color: #86DEB7;
+  background-color: #86DEB7 !important;
 }
 
-h1,
-h2 {
-  font-family: 'Rubik';
+h1{
+  font-family: 'Quicksand' !important;
+  font-weight: bold;
   margin: 0;
-  color: #50723C;
+  color: #50723C !important;
+  text-align: center;
+} 
+
+h2 {
+  font-family: 'Quicksand';
+  margin: 0;
+  color: #50723C !important;
   text-align: center;
 }
 
 .result {
   margin: 5px 0;
   padding: 30px 0;
-  background: #ADEEE3;
+  background: #ADEEE3 !important;
 }
 
 .article img {
@@ -72,8 +77,8 @@ h2 {
 button {
   border: 0px;
   height: 36px;
-  background: #50723C;
-  color: #86DEB7;
+  background: #50723C !important;
+  color: #86DEB7 !important;
   padding: 0 10px;
   font-size: 16px;
   cursor: pointer;
@@ -83,13 +88,13 @@ button {
 }
 
 button:hover {
-  background: #63B995;
+  background: #63B995 !important;
 }
 
 .error {
   text-align: center;
   font-size: 18px;
-  font-family: 'Lora', serif;
+  font-family: 'Raleway', serif;
 }
 
 @media (max-width: 500px) {
@@ -111,7 +116,7 @@ button:hover {
   }
   .error {
     margin: 0 10px;
-    font-family: 'Lato';
+    font-family: 'Raleway';
     background: #423E28;
   }
 }
